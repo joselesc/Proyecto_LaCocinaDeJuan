@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/altaTragos.css">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body>
+    
+    <div class="content">
+        <br>
+
+        <h1 class="logo"><span>LaCocinaDeJuan</span></h1>
+
+        <div class="animated bounceInUp">
+            <div class="alta-form">
+                <h3>Alta de Tragos</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre</label>
+                        <input type="text" id="nombre">
+                    </p>
+                    <p>
+                        <label>Imagen </label>
+                        <input type="text" id="imagen">
+                    </p>
+                    <p>
+                        <label>Descripción</label>
+                        <input type="text" id="descripcion">
+                    </p>
+                    <p>
+                        <label>Precio</label>
+                        <input type="text" id="precio">
+                    </p>
+                    <p>
+                       <label>Disponible</label> 
+                       <input type="checkbox" class="alta-check" id="disponible">
+                    </p>
+                    <p>
+                        <label>Cantidad</label>
+                        <input type="text" id="cantidad">
+                    </p>
+                    <p class="block">
+                        <button onclick="altaTragos();">
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <p>&copy; 2024 La Cocina de Juan. Todos los derechos reservados.</p>
+<br>
+
+<script src="../js/altaTragos.js"></script>
+</body>
+</html>
